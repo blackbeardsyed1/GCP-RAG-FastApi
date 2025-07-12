@@ -74,6 +74,7 @@ FastApi-GCP-Rag/
 sudo apt update
 sudo apt install python3-pip git unzip
 pip install -r requirements.txt
+```
 ### 🔑 2. Environment Configuration
 Create a .env file:
 GEMINI_API_KEY=your_gemini_key_here
