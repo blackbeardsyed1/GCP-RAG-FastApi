@@ -1,0 +1,8 @@
+file+permissions.txt
+flow.txt
+gemini_api_key.txt
+requirements.txt
+ssh_vm.txt
+vm_allow_traffic.txt
+vm_fast_api_backend_setup.txt
+backend/.env
