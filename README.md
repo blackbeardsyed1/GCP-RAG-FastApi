@@ -6,9 +6,6 @@ A robust, production-ready **Retrieval-Augmented Generation (RAG)** backend buil
 
 ---
 
-## 📸 Demo
-
-![RAG Architecture](https://github.com/yourusername/your-repo/assets/rag_architecture_demo.png)
 
 ---
 
