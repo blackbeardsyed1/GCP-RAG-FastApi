@@ -61,9 +61,6 @@ FastApi-GCP-Rag/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -77,25 +74,19 @@ Edit
 sudo apt update
 sudo apt install python3-pip git unzip
 pip install -r requirements.txt
-🔑 2. Environment Configuration
+### 🔑 2. Environment Configuration
 Create a .env file:
-
-bash
-Copy
-Edit
 GEMINI_API_KEY=your_gemini_key_here
-🚀 3. Run FastAPI App
-bash
-Copy
-Edit
+
+### 🚀 3. Run FastAPI App
+
 uvicorn main:app --host 0.0.0.0 --port 8000
-🖥️ Local Admin Client
+
+### 🖥️ 4.Local Admin Client
 Use client.py for managing users & testing PDF queries.
 
-bash
-Copy
-Edit
 python client.py
+
 Features:
 
 ✅ Create/Delete users
@@ -108,12 +99,8 @@ Features:
 
 🔐 Auto-updates users.json based on backend state
 
-🧪 Load Testing
+### 🧪 Load Testing
 Test scalability with:
-
-bash
-Copy
-Edit
 python load_test.py --users 30 --queries 4 --input users.json
 This will simulate:
 
@@ -123,7 +110,7 @@ This will simulate:
 
 100+ requests/minute
 
-❗ Common Errors & Fixes
+### ❗ Common Errors & Fixes
 Error	Fix
 models/gemini-pro not found	Ensure you're using correct Gemini model name (e.g., gemini-1.5-pro-002)
 users.json not found	Automatically created by client.py or add manually
